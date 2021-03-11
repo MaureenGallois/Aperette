@@ -11,12 +11,12 @@ Avant de commencer, soyez sûr d'avoir instller MySql sur votre ordianteur.
     - python3 -m venv [Le nom que vous lui donnez]
     - source [Le nom que vous lui donnez]/bin/activate
    
-   Pour utiliser Swagger:
+  - Pour utiliser Swagger:
     - python manage.py migrate
     - python manage.py runserver 
     - Allez à l'adresse indiquée dans le terminal
    
-   Pour lancer les tests :
+  - Pour lancer les tests :
     - python manage.py test aperetteAPI.tests.test_categories.CategorieTest.str_categorie
     - python manage.py test aperetteAPI.tests.test_aperettes.AperetteTest.str_aperette
     - python manage.py test aperetteAPI.tests.test_ingredients.IngredientTest.str_ingredient
